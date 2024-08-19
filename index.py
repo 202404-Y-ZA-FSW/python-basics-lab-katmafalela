@@ -10,7 +10,7 @@ def guessingGame():
 
   while True:
     try:
-      guess = int(input("Take a guess: "))
+      guess = int(input("guess: "+f"{attempts+1}"))
       attempts += 1
 
       if guess == secret_number:
